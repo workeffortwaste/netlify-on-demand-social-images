@@ -1,0 +1,25 @@
+{
+  "name": "netlify-on-demand-social-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workeffortwaste/netlify-on-demand-social-images.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workeffortwaste/netlify-on-demand-social-images/issues"
+  },
+  "homepage": "https://github.com/workeffortwaste/netlify-on-demand-social-images#readme",
+  "devDependencies": {
+    "@netlify/functions": "^0.7.0",
+    "chrome-aws-lambda": "^8.0.2",
+    "path-match": "^1.2.4",
+    "puppeteer-core": "^8.0.0"
+  }
+}
