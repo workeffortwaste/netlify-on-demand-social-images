@@ -18,7 +18,7 @@ Make sure to also add the required dependencies from `package.json` to your proj
 
 The image template can be easily modified and is generated from the `template.html` file found in the `/netlify/functions/social-image` directory. 
 
-The <h1> tag is automatically modified by the function to include the specified title text.
+The h1 tag is automatically modified by the function to include the specified title text.
 
 ## Author
 Chris Johnson - [defaced.dev](https://defaced.dev) - [@defaced](http://twitter.co.uk/defaced/)
