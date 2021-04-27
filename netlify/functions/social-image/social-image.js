@@ -57,8 +57,7 @@ async function handler (event, context) {
   return {
     statusCode: 200,
     headers: {
-      'Content-Type': 'image/png',
-      'x-test': event.path
+      'Content-Type': 'image/png'
     },
     body: screenshot,
     isBase64Encoded: true
