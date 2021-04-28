@@ -41,7 +41,6 @@ async function handler (event, context) {
     title: params.title
   }
 
-  console.log(event.queryStringParameters.title)
   await page.evaluate((share) => {
     const title = document.querySelector('h1')
     title.innerHTML = share.title
